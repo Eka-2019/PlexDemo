@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Plex TestSuite" verbose="1">
+
+    <test name="Whole Test Suite">
+        <classes>
+            <class name="testcases.homepagetests.SubMenuPagesTests"></class>
+            <class name="testcases.homepagetests.TalkToUsPageTests"></class>
+        </classes>
+    </test>
+
+</suite>
