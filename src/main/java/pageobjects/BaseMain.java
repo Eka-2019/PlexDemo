@@ -5,11 +5,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
-import utils.Utils;
+import utils.ExpectedData;
 
 import java.util.List;
 
-public class BaseMain extends Utils {
+public class BaseMain extends ExpectedData {
     WebDriver driver;
     String baseURL = "https://www.plex.com/";
 

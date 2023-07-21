@@ -3,7 +3,7 @@ package utils;
 import java.util.Arrays;
 import java.util.List;
 
-public class Utils {
+public class ExpectedData {
 
     public List<String> expectedProductSubMenuList() {
         List<String> expectedList = Arrays.asList("Manufacturing Execution System (MES)",
